@@ -93,7 +93,7 @@ header {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/herocontent.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('image/herocontent.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -650,4 +650,5 @@ footer {
     font-size: 0.9rem;
     color: #666;
     line-height: 1.4;
+
 }    
