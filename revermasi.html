@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafe Nusantara | Tempat Nyaman untuk Setiap Momen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="section-title">
+                <h2>Reservasi Meja</h2>
+                <p>Pesan meja Anda sekarang untuk pengalaman terbaik</p>
+            </div>
+            <div class="reservation-form">
+                <form id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Tanggal Reservasi</label>
+                            <input type="date" id="date" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="time">Waktu</label>
+                            <select id="time" class="form-control" required>
+                                <option value="">Pilih Waktu</option>
+                                <option value="08:00">08:00</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                                <option value="19:00">19:00</option>
+                                <option value="20:00">20:00</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Jumlah Tamu</label>
+                            <select id="guests" class="form-control" required>
+                                <option value="">Pilih Jumlah</option>
+                                <option value="1">1 Orang</option>
+                                <option value="2">2 Orang</option>
+                                <option value="3">3 Orang</option>
+                                <option value="4">4 Orang</option>
+                                <option value="5">5-6 Orang</option>
+                                <option value="7">7-8 Orang</option>
+                                <option value="9">9-10 Orang</option>
+                                <option value="11">Lebih dari 10 Orang</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan Tambahan (opsional)</label>
+                        <textarea id="message" class="form-control" rows="4" placeholder="Permintaan khusus, alergi makanan, atau informasi lainnya"></textarea>
+                    </div>
+                    <div class="form-group" style="text-align: center; margin-top: 30px;">
+                        <button type="submit" class="btn">Reservasi Sekarang</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

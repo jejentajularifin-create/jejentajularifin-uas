@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafe Nusantara | Tempat Nyaman untuk Setiap Momen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-coffee"></i>
+                    Kafe Nusantara
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#story">Cerita Kami</a></li>
+                    <li><a href="#vision">Visi & Misi</a></li>
+                    <li><a href="#menu">Menu Kami</a></li>
+                    <li><a href="#values">Nilai Kami</a></li>
+                    <li><a href="#facilities">Fasilitas</a></li>
+                    <li><a href="#reservation">Reservasi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Selamat Datang di Kafe Nusantara</h1>
+            <p>Tempat yang nyaman untuk menikmati kopi terbaik, makanan lezat, dan suasana yang hangat. Cocok untuk bekerja, bersantai, atau bertemu dengan teman dan kolega.</p>
+            <a href="/revermasi.html" class="btn">Reservasi Meja Sekarang</a>
+            <a href="#menu" class="btn" style="background-color: var(--accent-color); margin-left: 15px;">Lihat Menu Kami</a>
+        </div>
+    </section>
+
+    <!-- Company Story Section -->
+    <section id="story" class="story">
+        <div class="container">
+            <div class="section-title">
+                <h2>Cerita Kami</h2>
+                <p>Bagaimana perjalanan Kafe Nusantara dimulai</p>
+            </div>
+            <div class="story-content">
+                <div class="story-text">
+                    <p>Kafe Nusantara didirikan pada tahun 2018 oleh tiga sahabat yang memiliki kecintaan yang sama terhadap kopi dan budaya Indonesia. Awalnya hanya sebuah kedai kecil di sudut jalan, kini telah berkembang menjadi kafe yang dikenal banyak orang.</p>
+                    <p>Inspirasi kami berasal dari kekayaan rempah dan kopi Nusantara. Kami berkomitmen untuk menyajikan kopi terbaik dari berbagai daerah di Indonesia, dipadukan dengan suasana yang hangat dan pelayanan yang ramah.</p>
+                    <p>Dalam perjalanan kami, telah banyak pelanggan setia yang menjadi bagian dari keluarga besar Kafe Nusantara. Kami percaya bahwa secangkir kopi tidak hanya tentang rasa, tetapi juga tentang cerita dan hubungan yang tercipta di sekitarnya.</p>
+                </div>
+                <div class="story-image">
+                    <img src="/G2.jpg" alt="Interior Kafe Nusantara">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision" class="vision-mission">
+        <div class="container">
+            <div class="section-title">
+                <h2>Visi & Misi</h2>
+                <p>Arah dan tujuan kami ke depan</p>
+            </div>
+            <div class="vision-mission-content">
+                <div class="vision">
+                    <h3><i class="fas fa-eye"></i> Visi Kami</h3>
+                    <p>Menjadi kafe terdepan yang mempromosikan kekayaan kopi Indonesia ke dunia, dengan menciptakan pengalaman terbaik bagi setiap pelanggan.</p>
+                    <p>Kami bercita-cita untuk memperkenalkan dan melestarikan warisan kopi Nusantara kepada generasi muda dan masyarakat internasional.</p>
+                </div>
+                <div class="mission">
+                    <h3><i class="fas fa-bullseye"></i> Misi Kami</h3>
+                    <ul>
+                        <li>Menyajikan kopi berkualitas tinggi dari petani lokal Indonesia</li>
+                        <li>Menciptakan lingkungan yang nyaman dan inspiratif bagi pelanggan</li>
+                        <li>Mengembangkan bisnis yang berkelanjutan dan bertanggung jawab secara sosial</li>
+                        <li>Terus berinovasi dalam menu dan pelayanan</li>
+                        <li>Mendukung komunitas lokal dan petani kopi Indonesia</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Menu Kami</h2>
+                <p>Nikmati kelezatan kopi dan makanan terbaik kami</p>
+            </div>
+            
+            
+            
+            <div class="menu-grid">
+                <!-- Kopi -->
+                <div class="menu-item" data-category="coffee">
+                    <div class="menu-item-img">
+                        <img src="/Code Cake.jpg" alt="Kopi Arabika">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Es Cream</h3>
+                        
+                        <div class="menu-item-price">Rp 35.000</div>
+                        <span class="menu-badge bestseller">Bestseller</span>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="coffee">
+                    <div class="menu-item-img">
+                        <img src="/Digital Brew.jpg" alt="Latte Art">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Kopi beranak</h3>
+                        
+                        <span class="menu-badge new">New</span>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="coffee">
+                    <div class="menu-item-img">
+                        <img src="/tech Burger.jpg" alt="Kopi Tubruk">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Burger King</h3>
+                        
+                        <div class="menu-item-price">Rp 28.000</div>
+                    </div>
+                </div>
+                
+    <!-- Values Section -->
+    <section id="values" class="values">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nilai-Nilai Kami</h2>
+                <p>Prinsip yang membimbing setiap langkah kami</p>
+            </div>
+            <div class="values-list">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Kualitas Terbaik</h3>
+                    <p>Kami hanya menggunakan bahan-bahan terbaik dan selalu menjaga standar kualitas tertinggi dalam setiap sajian.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Pelayanan Ramah</h3>
+                    <p>Setiap pelanggan adalah keluarga kami. Kami selalu menyambut dengan senyuman dan keramahan khas Indonesia.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Keberlanjutan</h3>
+                    <p>Kami berkomitmen untuk bisnis yang ramah lingkungan dan mendukung petani kopi lokal secara berkelanjutan.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Inovasi</h3>
+                    <p>Terus berkreasi dengan menu baru dan pengalaman yang unik untuk pelanggan setia kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-title">
+                <h2>Fasilitas Kami</h2>
+                <p>Nikmati pengalaman terbaik di kafe kami</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-item">
+                    <div class="facility-img">
+                        <img src="/G4.jpg" alt="Area Kerja">
+                    </div>
+                    <div class="facility-info">
+                        <h3>Pemandangan yang indah</h3>
+                        
+                    </div>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-img">
+                        <img src="/G5.jpg" alt="Area Outdoor">
+                    </div>
+                    <div class="facility-info">
+                        <h3>Frivate room</h3>
+                       
+                    </div>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-img">
+                        <img src="/G6.jpg" alt="Private Room">
+                    </div>
+                    <div class="facility-info">
+                        <h3>Outdoor</h3>
+                        
+                    </div>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-img">
+                        <img src="/G7.jpg" alt="Live Music">
+                    </div>
+                    <div class="facility-info">
+                        <h3>Ruang makan keluarga</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kontak & Lokasi</h2>
+                <p>Kunjungi kami atau hubungi untuk informasi lebih lanjut</p>
+            </div>
+            <div class="contact-location">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jl. Kenanga No. 123, Jakarta Selatan, 12120</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>(021) 1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@kafenusantara.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 07:00 - 22:00</p>
+                            <p>Sabtu - Minggu: 08:00 - 23:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="location">
+                    <h3>Lokasi Kami</h3>
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <div style="text-align: center;">
+                                <i class="fas fa-map-marked-alt" style="font-size: 3rem; margin-bottom: 15px;"></i>
+                                <p>Peta Lokasi Kafe Nusantara</p>
+                                <p>Jl. Kenanga No. 123, Jakarta Selatan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 15px;">Kami berlokasi di pusat kota dengan akses mudah dari transportasi umum. Parkir luas tersedia untuk kenyamanan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">Kafe Nusantara</div>
+                    <p>Tempat yang nyaman untuk menikmati kopi terbaik, makanan lezat, dan suasana yang hangat. Kami berkomitmen untuk memberikan pengalaman terbaik bagi setiap pelanggan.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Menu Cepat</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="#home" style="color: #fff; text-decoration: none; display: block; margin-bottom: 10px;">Beranda</a></li>
+                        <li><a href="#menu" style="color: #fff; text-decoration: none; display: block; margin-bottom: 10px;">Menu Kami</a></li>
+                        <li><a href="#facilities" style="color: #fff; text-decoration: none; display: block; margin-bottom: 10px;">Fasilitas</a></li>
+                        <li><a href="#reservation" style="color: #fff; text-decoration: none; display: block; margin-bottom: 10px;">Reservasi</a></li>
+                        <li><a href="#contact" style="color: #fff; text-decoration: none; display: block; margin-bottom: 10px;">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Untuk Investor</h3>
+                    <p>Kafe Nusantara membuka peluang investasi untuk pengembangan cabang baru. Hubungi kami untuk proposal investasi.</p>
+                    <a href="mailto:investment@kafenusantara.com" class="btn" style="margin-top: 15px; background-color: var(--accent-color);">Email Investor</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Kafe Nusantara. Hak Cipta Dilindungi.</p>
+                <p>Website dibuat dengan ❤ untuk mempromosikan kafe dan menarik pelanggan baru.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="
